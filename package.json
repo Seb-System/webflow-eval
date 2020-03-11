@@ -1,0 +1,19 @@
+{
+    "name": "webflow-eval",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch ./assets/sass/style.scss:./assets/css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zelabstudio/webflow-eval.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zelabstudio/webflow-eval/issues"
+    },
+    "homepage": "https://github.com/zelabstudio/webflow-eval#readme"
+}

@@ -1,0 +1,41 @@
+.newsletter-section {
+    background-color: #E74832;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .newsletter-wrapper {
+        text-align: center;
+        padding: 100px 0;
+        max-width: 820px;
+        margin: 0 auto;
+        h2 {
+            font-size: 52px;
+            font-style: italic;
+            color: white;
+            margin-bottom: 35px;
+        }
+        p {
+            color: white;
+            margin-bottom: 50px;
+            font-size: 22px;
+            line-height: 31px;
+        }
+        .btn {
+            color: #003B5C;
+            border: 1px solid #003B5C;
+            background: white;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 15px;
+            padding: 10px 30px;
+            box-shadow: 4px 4px 0px #E74832;
+            transition: 0.3s all;
+            &:hover {
+                box-shadow: 7px 7px 0px #E74832;
+                color: white;
+                background: #003B5C;
+                transition: 0.3s all;
+            }
+        }
+    }
+}
